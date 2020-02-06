@@ -60,7 +60,7 @@ class _MyAppState extends State<MyApp> {
         ),
       );
     } else {
-      return AppPage(title: '美颜大师');
+      return AppPage(title: '张发勇');
     }
   }
 }
