@@ -33,6 +33,9 @@ class _Entertainment extends State<Entertainment> {
   renderBody() {
    setState(() {
       list.add(enterainMentMenu('颜值大师', Icons.face, Routes.appearaMaster));
+      list.add(enterainMentMenu('电影大全', Icons.movie, Routes.moviesList));
+      list.add(enterainMentMenu('在线商城', Icons.shop, Routes.onlineMall));
+      list.add(enterainMentMenu('美食天下', Icons.fastfood, Routes.foodList));
       list.add(enterainMentMenu('敬请期待', Icons.more, ''));
    });
     return new Center(

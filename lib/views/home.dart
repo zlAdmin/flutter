@@ -4,8 +4,7 @@ import 'package:flutter_app_zfy/views/first_page/home_main.dart';
 import 'package:flutter_app_zfy/views/first_page/user_main.dart';
 
 class AppPage extends StatefulWidget {
-  AppPage({Key key, this.title}) : super(key: key);
-  final String title;
+  AppPage({Key key}) : super(key: key);
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }

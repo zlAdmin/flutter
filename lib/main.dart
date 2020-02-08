@@ -1,6 +1,6 @@
 
-import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
+import 'package:fluro/fluro.dart';
 import 'routers/routers.dart';
 import 'routers/application.dart' show Application;
 import 'package:flutter_spinkit/flutter_spinkit.dart';
@@ -59,8 +59,9 @@ class _MyAppState extends State<MyApp> {
           child: SpinKitPouringHourglass(color: Colors.white),
         ),
       );
+      
     } else {
-      return AppPage(title: '张发勇');
+      return AppPage();
     }
   }
 }
